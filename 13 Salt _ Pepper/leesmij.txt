@@ -1,0 +1,3 @@
+Fonts
+Titels en doorlopende tekst: open sans, sans-serif
+https://fonts.google.com/specimen/Open+Sans

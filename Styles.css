@@ -1,0 +1,262 @@
+@media(min-width: 960px) {
+    /*algemeen*/
+    .wrapper {
+        max-width: 960px;
+        margin: auto;
+    }
+    /*Header*/
+    #logo {
+        max-width: 13.5em;
+        margin: auto;
+        padding: 20px 15px 15px 20px;
+        font-size: 30px;
+        text-align: center;
+        letter-spacing: 0.3em;
+        background-color: #FFFFFF;
+        border-color: black;
+        border-style: solid;
+        border-width: 5px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+        #logo a {
+            text-decoration: none;
+            color: black;
+        }
+
+    nav li {
+        display: inline-block;
+        float: left;
+        padding-right: 30px;
+    }
+
+    nav {
+        position: relative;
+        top: -55px;
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+        }
+
+    .socials li {
+        display: inline-block;
+    }
+
+    header .socials {
+        float: left;
+        position: relative;
+        top: -50px;
+        left: 63.7em;
+    }
+
+    header p {
+        z-index: -1;
+        background: url(img/header.jpg);
+        display: block;
+        position: relative;
+        top: -40px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 960px;
+        padding-bottom: 335px;
+    }
+
+    footer {
+        height: 180px;
+    }
+
+        footer #leftfooter {
+            float: left;
+            width: 320px;
+            margin-right: 50px
+        }
+
+        footer #rightfooter {
+            float: left;
+        }
+
+        footer h2 {
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            font-size: 20px;
+            padding-bottom: 25px;
+            margin-bottom: 30px;
+        }
+
+        footer form {
+            width: 590px;
+            float: left;
+        }
+
+        footer .streep {
+            position: relative;
+            left: -25px;
+        }
+
+        footer .socials {
+            position: relative;
+            /*left: -65px;*/
+        }
+
+    #email {
+        height: 30px;
+        min-width: 590px;
+        margin-bottom: 5px;
+    }
+
+    #subscribeButton {
+        height: 30px;
+        min-width: 590px;
+        background-color: black;
+        color: #FFFFFF;
+        margin-bottom: 60px;
+        cursor: pointer;
+    }
+
+    #rightfooter p {
+        color: #696969;
+    }
+    
+    footer .socials {
+        position: relative;
+        left: -65px;
+    }
+
+    footer .streep {
+        position: relative;
+        top: -30px;
+        float: left;
+        margin-left: 25px;
+    }
+    
+}
+
+@media(max-width: 960px) {
+    #logo {
+        max-width: 13.5em;
+        padding: 20px 15px 15px 20px;
+        font-size: 30px;
+        text-align: center;
+        letter-spacing: 0.3em;
+        background-color: #FFFFFF;
+        border-color: black;
+        border-style: solid;
+        border-width: 5px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+        #logo a {
+            text-decoration: none;
+            color: black;
+        }
+    nav li {
+        display: inline-block;
+        float: left;
+        padding-right: 30px;
+    }
+
+    nav {
+        position: relative;
+        top: 30px;
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+        }
+    .socials li {
+        display: inline-block;
+    }
+
+    header .socials {
+        float: left;
+        position: relative;
+        top: 30px;
+        left: 15.7em;
+    }
+
+    header p {
+        display: block;
+        position: relative;
+        top: -40px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    header {
+        margin-bottom: 100px;
+    }
+    footer #leftfooter {
+        width: 200px;
+        float: left;
+    }
+    #leftfooter h2{
+        position:relative;
+        top: -50px;
+    }
+    footer .streep{
+        position:relative;
+        left: -25px;
+    }
+    footer #rightfooter {
+        width:250px;
+        float: left;
+    }
+    footer #email{
+        width:250px;
+        height: 20px;
+    }
+    footer #subscribeButton {
+        background-color: black;
+        width: 250px;
+        height: 20px;
+        color:#FFFFFF;
+    }
+    footer{
+        float: none;
+        overflow: visible;
+    }
+}
+
+.active {
+    color: #696969;
+}
+.streep {
+    font-size: 3px;
+    color: #FFFFFF;
+    border-bottom: 5px black solid;
+    width: 25px;
+}
+.socials img {
+    height: 12px;
+    width: 12px;
+    margin-left: 15px;
+}
+.like {
+    background: url(img/heart.png);
+    color: transparent;
+    display: block;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 15px;
+    width: 15px;
+}
+.Comments{
+    padding-top: 10px;
+}

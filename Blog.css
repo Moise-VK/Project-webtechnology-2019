@@ -1,0 +1,194 @@
+main{
+	min-height:3270px;
+}
+.blogpostleft h3{
+	margin:10px 0px 10px 0px;
+	font-size: 25px;
+	font-weight: bolder;
+}
+.blogpostright h3{
+	margin:10px 0px 10px 0px;
+	font-size: 25px;
+	font-weight: bolder;
+}
+.blogpostleft{
+	margin-right: 40px;
+	width: 460px;
+	float: left;
+	border: #696969 1px solid;
+	margin-bottom: 40px;
+	height: 600px;
+
+}
+.blogpostright{
+	width: 460px;
+	float: left;
+	border: #696969 1px solid;
+	margin-bottom: 40px;
+	height: 600px;
+}
+.blogInside{
+	margin: 30px;
+}
+.Comments a{
+	text-decoration: none;
+	color: black;
+}
+.Text{
+	line-height: 1.4;
+	font-size: 16px;
+	color: #696969; 
+}
+.Comments {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 11px;
+    color: #696969;
+    border-top: #696969 solid 1px;
+}
+.Comments li{
+	padding-right: 15px;
+	display: inline-block;
+}
+.like{
+	float: right;
+}
+.profile{
+	line-height: 1.4;
+	font-size:11px;
+	color: #696969;
+}
+.profilepic{
+	margin-right: 10px;
+	float: left;
+	background: url(img/user.png);
+	display: block;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 30px;
+	width: 30px;
+}
+
+#brood{
+	background: url(img/Brood.jpg);
+	display: block;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 150%;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 300px;
+	width: 458px;
+}
+#worst{
+	background: url(img/worst.png);
+	display: block;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 150%;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 300px;
+	width: 458px;
+}
+#ratatouille{
+	background: url(img/Ratatouille.jpg);
+	display: block;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 150%;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 300px;
+	width: 458px;
+
+}
+#toast{
+	background: url(img/toast.jpg);
+	display: block;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 150%;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 300px;
+	width: 458px;
+}
+#salad{
+	background: url(img/salad.jpg);
+	display: block;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 150%;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 300px;
+	width: 458px;
+}
+#asparagus{
+	background: url(img/asparagus.jpg);
+	display: block;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 150%;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 300px;
+	width: 458px;
+}
+#spaghetti{
+	background: url(img/spaghetti.jpg);
+	display: block;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 150%;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 300px;
+	width: 458px;
+}
+#tartlet{
+	background: url(img/tartlet.jpg);
+	display: block;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 150%;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 300px;
+	width: 458px;
+}
+#steak{
+	background: url(img/steak.jpg);
+	display: block;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 150%;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 300px;
+	width: 458px;
+}
+footer .streep {
+	position: relative;
+	top: -30px;
+	float: left;
+	margin-left: 25px;
+}
+footer .socials{
+	position: relative;
+	left: -65px;
+}
